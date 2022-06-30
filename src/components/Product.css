@@ -1,0 +1,20 @@
+.card {
+    transition: 300ms all ease-in-out;
+    -webkit-transition: 300ms all ease-in-out;
+    -moz-transition: 300ms all ease-in-out;
+    -ms-transition: 300ms all ease-in-out;
+    -o-transition: 300ms all ease-in-out;
+    user-select: none;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.c-content {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}

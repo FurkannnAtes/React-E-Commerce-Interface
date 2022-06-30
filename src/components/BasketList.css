@@ -1,0 +1,21 @@
+.title {
+    white-space: nowrap;
+    max-width: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+
+}
+
+.title,
+.no,
+.price,
+.img {
+    line-height: 10;
+
+}
+
+.total {
+    line-height: 40px;
+}
